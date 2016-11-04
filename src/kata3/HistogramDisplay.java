@@ -13,7 +13,7 @@ public class HistogramDisplay extends ApplicationFrame {
 
     public HistogramDisplay() {
         super(" Histogram");
-        
+        this.histo = histo;
         // establecemos panel contenedor
         setContentPane(createPanel());
         // pack() = pone la ventana con el tamaño mínimo para que todos
